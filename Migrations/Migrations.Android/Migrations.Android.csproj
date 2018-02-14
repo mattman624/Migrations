@@ -28,6 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>Full</AndroidLinkMode>
+    <AndroidLinkSkip>Microsoft.EntityFrameworkCore;Microsoft.Extensions.Logging;Microsoft.Extensions.Options; Microsoft.EntityFrameworkCore; Microsoft.EntityFrameworkCore.Relational; Microsoft.EntityFrameworkCore.Sqlite;Remotion.Linq; Microsoft.Data.Sqlite.Core; Microsoft.EntityFrameworkCore.Sqlite.Core; Microsoft.Extensions.DependencyInjection.Abstractions;Microsoft.Extensions.DependencyInjection; Microsoft.Extensions.Logging.Abstractions; Microsoft.Extensions.Logging; Microsoft.Extensions.Caching.Abstractions; Microsoft.Extensions.Caching.Memory;  Microsoft.Extensions.Options; Microsoft.Extensions.Primitives; System.Reflection; System.Reflection.Primitives; System.Linq; System.Linq.Expressions; System.Linq.Queryable</AndroidLinkSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
